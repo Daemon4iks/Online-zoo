@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,UAAU,EAAE,0BAA0B;EACtC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC9B",
-    "sources": [
-        "donate-header.scss"
-    ],
-    "names": [],
-    "file": "donate-header.css"
-}
+{"version":3,"sources":["donate-header.scss","donate-header.css"],"names":[],"mappings":"AAAA;EACI,sCAAA;EACA,WAAA;EACA,aAAA;EACA,4BAAA;EACA,sBAAA;EACA,2BAAA;ACCJ","file":"donate-header.css"}
