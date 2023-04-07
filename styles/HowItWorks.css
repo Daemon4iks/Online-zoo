@@ -1,0 +1,170 @@
+.how-it-works {
+  padding-top: 69px;
+  padding-bottom: 100px;
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.how-it-works__block {
+  border-radius: 20px;
+  padding: 20px;
+  background: rgba(253, 253, 255, 0.52);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+.how-it-works__block-h2 {
+  font-family: 'Roboto400';
+  font-style: normal;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #FE9013;
+  margin-bottom: 30px;
+}
+
+.how-it-works__block-h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Roboto400';
+  font-style: normal;
+  font-size: 36px;
+  line-height: 130%;
+  margin-bottom: 60px;
+  color: #333B41;
+}
+
+.how-it-works__block-textV3 {
+  margin-left: 99px;
+  font-family: 'Roboto400';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 130%;
+  margin-bottom: 60px;
+  color: #333B41;
+}
+
+.how-it-works__block-textV3 a {
+  text-decoration: none;
+  border-bottom: 2px solid #FE9013;
+}
+
+.how-it-works__block-textV2 {
+  margin-left: 99px;
+  font-family: 'Roboto500';
+  font-style: normal;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 130%;
+  color: #333B41;
+}
+
+.how-it-works__block-textV1 {
+  margin-left: 99px;
+  font-family: 'Roboto400';
+  margin-bottom: 40px;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 120%;
+  color: #333B41;
+}
+
+.how-it-works__block .button__item {
+  margin-top: 60px;
+  margin-bottom: 59px;
+}
+
+.how-it-works__block .button__item-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 298px;
+  height: 54px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  color: #fff;
+  border-radius: 25px;
+  font-family: 'Roboto500';
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.how-it-works__block .MiniBlocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.how-it-works__block .MiniBlocks .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 169px;
+  height: 250px;
+}
+
+.how-it-works__block .MiniBlocks .item__text {
+  font-family: 'Roboto400';
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.how-it-works__block .MiniBlocks__MiniBlock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 168px;
+  height: 168px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid #FE9013;
+}
+
+.how-it-works__block .MiniBlocks__MiniBlock-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.how-it-works__block .MiniBlocks__MiniBlock-images .image {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.how-it-works__block .MiniBlocks .Arrow {
+  margin-top: 65.765px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+/*# sourceMappingURL=HowItWorks.css.map */

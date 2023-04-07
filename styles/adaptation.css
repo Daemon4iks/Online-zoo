@@ -1,0 +1,63 @@
+@media screen and (max-width: 1600px) {
+  .container {
+    max-width: 980px;
+  }
+  .header__content {
+    margin-right: 85.75px;
+  }
+  .header__content-box {
+    width: 367px;
+    height: 367px;
+  }
+  .header__content-text {
+    font-family: "Roboto700";
+    font-size: 85px;
+    line-height: 75%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 400px;
+    color: #ffffff;
+  }
+  .old-man__inner {
+    margin-bottom: 142px;
+  }
+  .old-man__flower-img {
+    display: none;
+  }
+  .old-man__img-normal {
+    display: none;
+  }
+  .old-man__img-media {
+    display: block;
+    height: 408px;
+    width: 455px;
+  }
+  .old-man__content {
+    margin-left: 31px;
+    max-height: 422px;
+  }
+  .old-man__content .title {
+    font-family: "Roboto400";
+    font-size: 40px;
+    line-height: 120%;
+    color: #333b41;
+  }
+  .old-man__content-text {
+    font-family: "Roboto400";
+    font-size: 16px;
+    line-height: 140%;
+    color: #333b41;
+  }
+  .old-man__content-text--first {
+    margin-bottom: 54px;
+    line-height: 130%;
+  }
+  .old-man__content-text--second {
+    margin-bottom: 24px;
+    font-family: "Roboto400";
+    font-size: 24px;
+    line-height: 120%;
+    color: #333b41;
+  }
+}
+/*# sourceMappingURL=adaptation.css.map */

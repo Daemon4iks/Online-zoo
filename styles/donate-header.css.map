@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,UAAU,EAAE,0BAA0B;EACtC,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC9B",
+    "sources": [
+        "donate-header.scss"
+    ],
+    "names": [],
+    "file": "donate-header.css"
+}

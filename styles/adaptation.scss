@@ -1,0 +1,71 @@
+@media screen and (max-width: 1600px) {
+    .container {
+        max-width: 980px;
+    }
+    .header {
+        &__content {
+            margin-right: 85.75px;
+            &-box {
+                width: 367px;
+                height: 367px;
+            }
+            &-text {
+                font-family: "Roboto700";
+                font-size: 85px;
+                line-height: 75%;
+                text-align: center;
+                text-transform: uppercase;
+                width: 400px;
+                color: #ffffff;
+            }
+        }
+    }
+
+    .old-man {
+        &__inner {
+            margin-bottom: 142px;
+        }
+        &__flower-img {
+            display: none;
+        }
+        &__img {
+            &-normal {
+                display: none;
+            }
+
+            &-media {
+                display: block;
+                height: 408px;
+                width: 455px;
+            }
+        }
+
+        &__content {
+            margin-left: 31px;
+            max-height: 422px;
+            .title {
+                font-family: "Roboto400";
+                font-size: 40px;
+                line-height: 120%;
+                color: #333b41;
+            }
+            &-text {
+                font-family: "Roboto400";
+                font-size: 16px;
+                line-height: 140%;
+                color: #333b41;
+                &--first {
+                    margin-bottom: 54px;
+                    line-height: 130%;
+                }
+                &--second {
+                    margin-bottom: 24px;
+                    font-family: "Roboto400";
+                    font-size: 24px;
+                    line-height: 120%;
+                    color: #333b41;
+                }
+            }
+        }
+    }
+}

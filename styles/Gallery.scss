@@ -1,0 +1,98 @@
+
+.gallery{
+    position: relative;
+    .ChooseFavorite{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container{
+        max-width: 1350px;
+        
+    }
+    .img{
+        &__LeftBottom{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        &__RightBottom{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+        
+
+    &__inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        column-gap: 30px;
+        &--button1{
+            
+            align-self: center;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            background-color: #F9804B;
+            color: white;
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        &--button2{
+            align-self: center;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            width: 62px;
+            height: 62px;
+            background-color: #F9804B;
+            color: white;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        &-ChooseFavorite{
+            text-align: center;
+            font-family: 'Roboto500';
+            font-size: 16px;
+            text-align: center;
+            width: 298px;
+            height: 54px;
+            margin-top: 80px;
+            margin-bottom: 100px;
+            border-radius: 25px;
+            color: #fff;
+            background: #FE9013;
+        }
+        
+    }
+    &__block{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        
+        border: 1px solid #FA6F32;
+        border-radius: 5px;
+        &-content{
+            display: flex;
+            justify-content: space-between;
+            margin: 5px;
+            align-items: center;
+           
+        }
+        &-Btext{
+            font-family: 'Roboto500';
+            line-height: 140%;
+        }
+        &-text{
+            font-family: 'Roboto300';
+            line-height: 140%;
+        }
+    }
+}

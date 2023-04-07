@@ -1,0 +1,273 @@
+.header__menu-item:nth-child(4) {
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.donation {
+  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #febdab 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #e0d8f0 80.49%, #eaf7fe 127.9%, #eaf7fe 149.54%);
+}
+
+.donation__inner-texts h3 {
+  padding-top: 40px;
+  color: #fff;
+  font-family: "Roboto400";
+  font-size: 36px;
+  line-height: 130%;
+}
+
+.donation__inner-texts p {
+  margin-top: 35px;
+  color: #fff;
+  font-family: "Roboto500";
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.donation__inner-texts .donation-information {
+  margin-top: 15px;
+  font-family: "Roboto400";
+  font-size: 36px;
+  line-height: 130%;
+  color: #fe9013;
+}
+
+.donation__inner-panel-text {
+  margin-bottom: 10px;
+  font-family: "Roboto400";
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.donation__inner-panel .money-input {
+  text-align: center;
+  margin-top: 98px;
+}
+
+.donation__inner-panel .money-input-value {
+  padding-right: 20px;
+  padding-left: 10px;
+  background-image: url("/images/dollar.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: 97% center;
+  border: 1px solid #929699;
+  border-radius: 2px;
+  width: 268px;
+  height: 54px;
+  font-family: "Roboto400";
+  font-size: 16px;
+  line-height: 140%;
+  color: #929699;
+}
+
+.donation__inner-panel .money-input-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+  gap: 50px;
+}
+
+.donation__inner .pick {
+  background: rgba(255, 255, 255, 0.52);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  border-radius: 20px;
+  padding-left: 92px;
+  padding-right: 92px;
+  margin-top: 60px;
+  padding-bottom: 500px;
+}
+
+.donation__inner .pick-texts {
+  padding-top: 41px;
+}
+
+.donation__inner .pick-texts h3 {
+  font-family: "Roboto400";
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: #fe9013;
+  margin-bottom: 20px;
+}
+
+.donation__inner .pick-texts p {
+  font-family: "Roboto400";
+  font-size: 24px;
+  line-height: 120%;
+  color: #333b41;
+}
+
+.donation__inner .pick-diets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.donation__inner .pick-diets-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.donation__inner .pick-diets-count {
+  font-family: "Roboto500";
+  margin-bottom: 11px;
+  font-size: 72px;
+  line-height: 80%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.donation__inner .pick-diets-text {
+  font-family: "Roboto400";
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #333b41;
+}
+
+.donation__inner-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10.5%;
+  margin: 0 auto;
+  background: #404950;
+  border-radius: 2px;
+  position: relative;
+  max-width: 976px;
+  height: 27px;
+}
+
+.donation__inner-buttons::after {
+  content: "";
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 2px;
+  background: #72828e;
+}
+
+.donation__inner-button {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffee2e;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.donation__inner-button.active::after, .donation__inner-button.active::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #fe9013;
+  left: -12px;
+  opacity: 0;
+  right: -12px;
+  top: -12px;
+  bottom: -12px;
+  border-radius: 50%;
+  -webkit-animation: pulse 2.5s linear infinite;
+          animation: pulse 2.5s linear infinite;
+}
+
+.donation__inner-button.active::after {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.donation__inner-button:hover {
+  background-color: #555;
+}
+
+.donation__inner-button-inner {
+  z-index: 99;
+}
+
+.donation__inner-value {
+  position: absolute;
+  top: 30px;
+  font-family: "Roboto500";
+  font-size: 26px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #333b41;
+}
+
+.donation__inner-value.clicked {
+  color: #fe9013;
+}
+/*# sourceMappingURL=donation-main.css.map */

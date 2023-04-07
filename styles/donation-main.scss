@@ -1,0 +1,233 @@
+.header__menu-item {
+    &:nth-child(4) {
+        background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+.donation {
+    background: linear-gradient(
+            315.75deg,
+            rgba(254, 210, 144, 0.7) 30.06%,
+            #febdab 100.95%,
+            rgba(254, 210, 144, 0.7) 106.36%
+        ),
+        linear-gradient(
+            315.75deg,
+            rgba(254, 189, 171, 0.74) 30.06%,
+            rgba(243, 169, 248, 0.66) 50.74%,
+            #e0d8f0 80.49%,
+            #eaf7fe 127.9%,
+            #eaf7fe 149.54%
+        ),
+        linear-gradient(
+            315.75deg,
+            rgba(254, 189, 171, 0.74) 30.06%,
+            rgba(243, 169, 248, 0.66) 50.74%,
+            #e0d8f0 80.49%,
+            #eaf7fe 127.9%,
+            #eaf7fe 149.54%
+        );
+    &__inner {
+        &-texts {
+            h3 {
+                padding-top: 40px;
+                color: #fff;
+                font-family: "Roboto400";
+                font-size: 36px;
+                line-height: 130%;
+            }
+            p {
+                margin-top: 35px;
+                color: #fff;
+                font-family: "Roboto500";
+                font-size: 16px;
+                line-height: 140%;
+            }
+            .donation-information {
+                margin-top: 15px;
+                font-family: "Roboto400";
+                font-size: 36px;
+                line-height: 130%;
+                color: #fe9013;
+            }
+        }
+        &-panel {
+            &-text {
+                margin-bottom: 10px;
+                font-family: "Roboto400";
+                font-size: 16px;
+                line-height: 140%;
+                color: #000000;
+            }
+            .money-input {
+                text-align: center;
+                margin-top: 98px;
+                &-value {
+                    padding-right: 20px;
+                    padding-left: 10px;
+                    background-image: url("/images/dollar.png"); 
+                    background-position: right center; 
+                    background-repeat: no-repeat;
+                    background-color: rgba(0, 0, 0, 0);
+                    background-position: 97% center;
+                    border: 1px solid #929699;
+                    border-radius: 2px;
+                    width: 268px;
+                    height: 54px;
+                    font-family: "Roboto400";
+                    font-size: 16px;
+                    line-height: 140%;
+                    color: #929699;
+                }
+                &-radio {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 25px;
+                    gap: 50px;
+                }
+            }
+        }
+        .pick {
+            background: rgba(255, 255, 255, 0.52);
+            backdrop-filter: blur(2px);
+            border-radius: 20px;
+            padding-left: 92px;
+            padding-right: 92px;
+            margin-top: 60px;
+            padding-bottom: 500px;
+            &-texts {
+                padding-top: 41px;
+                h3 {
+                    font-family: "Roboto400";
+                    font-size: 48px;
+                    line-height: 120%;
+                    text-align: center;
+                    color: #fe9013;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-family: "Roboto400";
+                    font-size: 24px;
+                    line-height: 120%;
+                    color: #333b41;
+                }
+            }
+            &-diets {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 50px;
+                margin-top: 20px;
+                margin-bottom: 80px;
+                &-title {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                &-count {
+                    font-family: "Roboto500";
+                    margin-bottom: 11px;
+                    font-size: 72px;
+                    line-height: 80%;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #000000;
+                }
+                &-text {
+                    font-family: "Roboto400";
+                    font-size: 16px;
+                    line-height: 140%;
+                    text-align: center;
+                    color: #333b41;
+                }
+            }
+        }
+        &-buttons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10.5%;
+            margin: 0 auto;
+            background: #404950;
+            border-radius: 2px;
+            position: relative;
+            max-width: 976px;
+            height: 27px;
+        }
+        &-buttons::after {
+            content: "";
+            position: absolute;
+            width: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 2px;
+            background: #72828e;
+        }
+        &-button {
+            position: relative;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #ffee2e;
+            text-align: center;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+        &-button.active::after,
+        &-button.active::before {
+            content: "";
+            position: absolute;
+            border: 2px solid #fe9013;
+            left: -12px;
+            opacity: 0;
+            right: -12px;
+            top: -12px;
+            bottom: -12px;
+            border-radius: 50%;
+            animation: pulse 2.5s linear infinite;
+        }
+        &-button.active::after {
+            animation-delay: 1.25s;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.5);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1.2);
+                opacity: 0;
+            }
+        }
+        &-button:hover {
+            background-color: #555;
+        }
+        &-button-inner {
+            z-index: 99;
+        }
+        &-value {
+            position: absolute;
+            top: 30px;
+            font-family: "Roboto500";
+            font-size: 26px;
+            line-height: 140%;
+            text-transform: uppercase;
+            color: #333b41;
+        }
+        &-value.clicked {
+            color: #fe9013;
+        }
+    }
+}

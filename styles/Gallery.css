@@ -1,0 +1,128 @@
+.gallery {
+  position: relative;
+}
+
+.gallery .ChooseFavorite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gallery .container {
+  max-width: 1350px;
+}
+
+.gallery .img__LeftBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.gallery .img__RightBottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.gallery__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.gallery__inner--button1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #F9804B;
+  color: white;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.gallery__inner--button2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  width: 62px;
+  height: 62px;
+  background-color: #F9804B;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.gallery__inner-ChooseFavorite {
+  text-align: center;
+  font-family: 'Roboto500';
+  font-size: 16px;
+  text-align: center;
+  width: 298px;
+  height: 54px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  border-radius: 25px;
+  color: #fff;
+  background: #FE9013;
+}
+
+.gallery__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20px;
+  border: 1px solid #FA6F32;
+  border-radius: 5px;
+}
+
+.gallery__block-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gallery__block-Btext {
+  font-family: 'Roboto500';
+  line-height: 140%;
+}
+
+.gallery__block-text {
+  font-family: 'Roboto300';
+  line-height: 140%;
+}
+/*# sourceMappingURL=Gallery.css.map */
